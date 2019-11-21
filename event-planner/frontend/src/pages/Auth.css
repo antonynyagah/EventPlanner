@@ -1,0 +1,39 @@
+.auth-form{
+    width:25rem;
+    max-width: 80%;
+    margin:5rem auto;
+}
+
+.form-control label,
+.form-control input{
+    widows: 100%;
+    display: block;
+}
+
+.form-control label{
+    margin-bottom: 0.5rem;
+
+}
+
+.form-control{
+    margin-bottom: 1rem;
+}
+
+.form-actions button{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font: inherit;
+    color:white;
+    border-radius: 3px;
+    padding: 0.25rem 1rem;
+    margin-right: 1rem;
+    box-shadow:  1px 1px 5px black;
+    cursor: pointer;
+}
+
+.form-actions button:hover,
+.form-actions button:active{
+    background: -webkit-linear-gradient(to left, #96baf8, #373B46);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #96baf8, #373B46); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
